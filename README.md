@@ -11,6 +11,8 @@ bajo las descripciones teóricas de 16-QAM, se logre transmitir la imagen y veri
 estacionario y ergódico conciendo las relaciones entre los valores del promedio temporales y de los datos. Finalmente, obtener gráficamente la densidad espectral de potencia, por 
 medio de la formulación descrita. 
 
+![alt text](https://github.com/MiguelS1501/Proyecto4/blob/main/arenal.png)
+
 Separando la funcionalidad de las secciones modificadas se tiene que: 
 
 1- ) En la parte de modulación la señal le ingresa un vector unitario que luego se le cambia la forma por medio de la función de Numpy "reshape", dejandolo como matriz de Nx4. 
@@ -29,6 +31,22 @@ al promedio en el tiempo, lo cual es el criterio de la ergodicidad. Como esta pr
 se realizó la comprobación de que una de sus propiedades estadísticas (media) es igual a un valor constante para un intervalo de tiempo. Finalmente, mediante la densidad espectral de
 potencia se visualizó un máximo de más de 140000 en su magnitud y se observa un comportamiento adecuado a los resultados obtenidos en las secciones anteriores. 
 
+# Resultados obtenidos:
 
+La siguiente muestra la imagen transmitida y recibida después del proceso de modulación:
+
+![alt text](https://github.com/MiguelS1501/Proyecto4/blob/main/Recibida-Transmitida.JPG)
+
+Además, se señalan las gráficas de las diferentes señales de especial relevancia que forman parte de las distintas secciones de transformación.
+
+![alt text](https://github.com/MiguelS1501/Proyecto4/blob/main/grafica.png)
+
+Seguidamente, se muestra un ejemplo de diferentes patrones de funciones en el tiempo. 
+
+![alt text](https://github.com/MiguelS1501/Proyecto4/blob/main/ergodicidad.png)
+
+Por último, es posible visualizar la gráfica que indica la magnitud espectral de potencia.
+
+![alt text](https://github.com/MiguelS1501/Proyecto4/blob/main/potencia.png)
 
 
